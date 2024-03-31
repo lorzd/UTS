@@ -12,26 +12,41 @@ o. Data set berisikan
 "Heat_index" = nilai indek panas
 
 2.	Preprocessing Data:
+   
 o	Kolom yang tidak relevan seperti “Unnamed : 0" dihapus.
+
 o	Data numerik dinormalisasi menggunakan MinMaxScaler.
 
 3.	Linear Regression:
+   
 o	Model regresi linear (LinearRegression) diuji dengan membagi data menjadi train dan test set.
+
 o	Skor akurasi pada data train dan test ditampilkan.
 
-4.	Artificial Neural Network (ANN):
+6.	Artificial Neural Network (ANN):
+   
 o	Model jaringan saraf tiruan (ANN) dengan dua lapisan (32 neuron pada lapisan pertama dan 1 neuron pada lapisan kedua) dibuat.
+
 o	Fungsi aktivasi yang digunakan adalah ReLU pada lapisan pertama dan linear pada lapisan kedua.
+
 o	Model di-compile dengan optimizer Adam dan loss function mean squared error.
+
 Hasil Linear Regression:
+
 •	Train score 0.997827613764311
+
 •	Test score 0.9977907105621123
+
 Hasil ANN:
+
 •	Model ANN telah dievaluasi pada data test.
+
 •	nilai evaluasi dari X_test, y_test adalah 1.8355189013163908e-06, 0.0010202040430158377.
 
-5.	Perbandingan Prediksi Linear Regression dan ANN: 
+8.	Perbandingan Prediksi Linear Regression dan ANN:
+   
 o	Scatter plot menunjukkan perbandingan antara nilai aktual dan nilai prediksi menggunakan regresi linear dan ANN.
+
 o	Garis putus-putus abu-abu menunjukkan nilai aktual dan prediksi yang sama.
 
 Hasil dari kode menunjukkan beberapa hal:
