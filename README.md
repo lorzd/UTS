@@ -77,9 +77,12 @@ o	Model ANN telah dievaluasi pada data test.
 o   Skor R2 pada data test: 0.9999
 (Model ANN memiliki performa yang baik)
 
-9.	Perbandingan Prediksi Linear Regression dan ANN:
+5.	Perbandingan Prediksi Linear Regression dan ANN:
+   
 o.  Presentase akurasi yang paling besar adalah model ANN
+
 o.  99.99% > 99.78%
+
 O.  Metode ANN dapat melakukan tugasnya dengan baik, maka disarankan untuk menggunakan metode ini daripada linear regression
 
 
