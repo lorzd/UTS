@@ -2,7 +2,9 @@
 # Linear Regression dan ANN-Model
 Penjelasan kode:
 1.	Baca Dataset:
+
 o. Dataset yang digunakan berasal dari Kaggle.
+
 o. Data set berisikan 
 "_time" = waktu pengambilan data
 "temperature" = suhu yang terpantau
